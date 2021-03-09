@@ -6,7 +6,7 @@ body {
     text-align: center; 
 }
 
-.figure {	
+div.figure {	
     height: 50px;
     border-radius: 50%;
 }
