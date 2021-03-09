@@ -5,6 +5,11 @@
     width:100%;    
 }
 
+
 #background{
     background-color: black;
 }
+
+body {
+    background-color: #082767;
+  }
