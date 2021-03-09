@@ -10,3 +10,7 @@ div.figure {
     height: 50px;
     border-radius: 50%;
 }
+
+img {	
+    border-radius: 50%;
+}
