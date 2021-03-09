@@ -2,6 +2,7 @@ body {
     background-color: floralwhite;
 }
 
-footer {
-    background-color: black;
+.footer {
+    text-align: center; 
 }
+
