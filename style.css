@@ -6,3 +6,7 @@ body {
     text-align: center; 
 }
 
+.figure {	
+    height: 50px;
+    border-radius: 50%;
+}
