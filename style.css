@@ -24,3 +24,8 @@ img {
 p {
     font-size: 17px;
  }
+
+ a:link {
+    color: black;
+   }
+   
