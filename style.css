@@ -1,5 +1,6 @@
 body {
-    background-color: floralwhite;
+    /* background-color: floralwhite; */
+    background-color: grey;
 }
 
 .footer {
@@ -22,11 +23,12 @@ img {
 }
 
 p {
+    color: white;
     font-size: 18px;
  }
 
  a {
-    color: black;
+    color: white;
     font-size: 20px;
    }
    
