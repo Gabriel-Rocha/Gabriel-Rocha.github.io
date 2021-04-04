@@ -11,16 +11,16 @@ div.figure {
     border-radius: 50%;
 }
 
-img {	
+/* img {	
 
     height: 200px;
     background-color: #000;
     color: #FFF;
   
-    /* Agora a mágica */
+    /* Agora a mágica 
     border-radius: 35%;
 }
-
+ */
 p {
     font-size: 18px;
     font-family: serif;
