@@ -2,9 +2,6 @@ body {
     background-color: whitesmoke;
 }
 
-.footer {
-    text-align: center; 
-}
 
 div.figure {	
     height: 50px;
@@ -32,4 +29,9 @@ p {
     text-decoration: none;
    }
    
-   
+   .footer {
+    text-align: center; 
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
