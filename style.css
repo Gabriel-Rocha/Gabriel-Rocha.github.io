@@ -12,8 +12,6 @@ img {
     height: 200px;
     background-color: #000;
     color: #FFF;
-  
-    /* Agora a mágica */ 
     border-radius: 35%;
 }
 
@@ -29,9 +27,9 @@ p {
     text-decoration: none;
    }
    
-   .footer {
+.footer {
     text-align: center; 
-    position:absolute;
+    position:relative;
     bottom:0;
     width:100%;
 }
