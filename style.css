@@ -12,9 +12,8 @@ div.figure {
 
 img {	
     height: 200px;
-    background-color: #000;
     color: #FFF;
-    border-radius: 35%;
+    border-radius: 50%;
 }
 
 p {
