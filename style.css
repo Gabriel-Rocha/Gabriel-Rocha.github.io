@@ -68,7 +68,6 @@ a {
 
 .breadcrumb__separator {
     margin: 0 8px;
-    /* display: inline-block; */
 }
 
 
@@ -79,17 +78,15 @@ a {
 #left {
     width: 40%;
     /* background: lightblue;  */
-    /* display: inline-block; */
     text-align: right;
 
 }
 #right {
-    margin-left: 50px;
     height: 110px;
     width: 60%;
     margin-top: 0px;
-    margin-left: 169px;
-    /* background: orange; */ 
+    margin-left: 25px;
+    background: orange; 
     /* display: inline-block; */
     
 }
