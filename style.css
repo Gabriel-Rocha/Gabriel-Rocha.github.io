@@ -63,7 +63,7 @@ a {
 
 .breadcrumb {
     align-items: center;
-    display: flex;
+    display: inline-flex;
 }
 
 .breadcrumb__separator {
