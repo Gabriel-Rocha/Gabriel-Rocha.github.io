@@ -59,6 +59,8 @@ a {
     -moz-animation: fadeIn 3s ease-in-out;
     -o-animation: fadeIn 3s ease-in-out;
     animation: fadeIn 3s ease-in-out;
+    background-color: #282b2d;
+    padding: 8%;
 }
 
 .breadcrumb {
@@ -70,17 +72,18 @@ a {
     margin: 0 8px;
 }
 
-
- #container {
-    display: flex;   
+/* classe pai da img */
+.container {
+    text-align: center;
 }
 
-#left {
+/* classe filha da img */
+/* #left {
     width: 15%;
-    /* background: lightblue; */
+    background: lightblue;
     text-align: right;
 
-}
+} */
 
 #favicon {
     margin-left: 10px;
@@ -96,8 +99,8 @@ a {
     overflow: hidden;
   }
   
-  /* stilo dos links no topNav */
-  .topnav a {
+/* stilo dos links no topNav */
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -106,17 +109,17 @@ a {
     font-size: 17px;
   }
   
-  /* troca a cor dos links hover */
-  .topnav a:hover {
+/* troca a cor dos links hover */
+.topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
   
-  /* Add a cor na ação do link */
-  .topnav a.active {
+/* Add a cor na ação do link */
+.topnav a.active {
     background-color: #04AA6D;
     color: white;
-  }
+}
   
 
 #myFooter{
