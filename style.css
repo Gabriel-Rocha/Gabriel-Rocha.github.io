@@ -1,6 +1,11 @@
 body {
     color: rgb(248, 248, 250);
     background: rgb(13, 21, 23);
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
 }
 
 div.figure {	
@@ -26,13 +31,6 @@ a {
    font-size: 20px;
    font-family: serif;
    text-decoration: none;
-}
-   
-.footer {
-    text-align: center; 
-    position:relative;
-    bottom:0;
-    width:100%;
 }
 
 @-webkit-keyframes fadeIn {
@@ -91,13 +89,13 @@ a {
     height: auto;
 }
 
-/* Add a black background color to the top navigation */
+/* topNav cor */
 .topnav {
     background-color: #333;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
+  /* stilo dos links no topNav */
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -107,18 +105,19 @@ a {
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+  /* troca a cor dos links hover */
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Add a color to the active/current link */
+  /* Add a cor na ação do link */
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
   }
   
+
 #myFooter{
     padding-top:32px;
     background-color: #282b2d;
@@ -143,6 +142,13 @@ a {
 #myFooter a{
     color: #a5a9aa;
     font-size: 18px;
+}
+
+#myFooter .contato{
+    /* background-color: #00aced; */
+    color: #a5a9aa;
+    font-size: 18px;
+    line-height: 0;
 }
 
 #myFooter li{
@@ -174,55 +180,14 @@ a {
     transition:color 0.2s;
 }
 
-#myFooter .fa-facebook:hover{
-   color: #2b55ff;
-}
-
-#myFooter .fa-facebook:focus{
-    color: #2b55ff; 
-}
-
-#myFooter .fa-instagram:hover{
-    color:purple;
-}
-
-#myFooter .fa-instagram:focus{
-    color:purple;
-}
-
-#myFooter .fa-youtube:hover{
-    color:red;
-}
-
-#myFooter .fa-youtube:focus{
-    color:red;
-}
-
-#myFooter .fa-twitter:hover{
-    color: #00aced;
-
-}
-
-#myFooter .fa-twitter:focus{
-    color:#00aced;
-}
-
-
-body{
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    height: 100%;
-}
-
-  .content{
+.content{
     flex: 1 0 auto;
     -webkit-flex: 1 0 auto;
     min-height: 200px;
  }
  
- #myFooter{
+#myFooter{
     flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
  }
+
