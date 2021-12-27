@@ -18,6 +18,13 @@ img {
     border-radius: 50%;
 }
 
+h2 {
+    font-size: 32px;
+    background: -webkit-linear-gradient(90deg, rgb(252, 252, 252)  -0.03%, rgb(172, 172, 172) 99.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 p {
     box-sizing: border-box;
     margin-top: 30px;
@@ -77,8 +84,7 @@ a {
 /* classe pai da img */
 .container {
     text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
 /* classe filha da img */
@@ -99,7 +105,7 @@ a {
 
 /* topNav cor */
 .topnav {
-    margin-bottom: 6%;
+    margin-bottom: 3%;
     background-color: #333;
     overflow: hidden;
   }
