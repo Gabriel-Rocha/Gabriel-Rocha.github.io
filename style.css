@@ -77,6 +77,8 @@ a {
 /* classe pai da img */
 .container {
     text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 /* classe filha da img */
@@ -97,6 +99,7 @@ a {
 
 /* topNav cor */
 .topnav {
+    margin-bottom: 6%;
     background-color: #333;
     overflow: hidden;
   }
