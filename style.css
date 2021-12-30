@@ -208,3 +208,18 @@ a {
     -webkit-flex: 0 0 auto;
  }
 
+
+ .containerSeparator {
+    /* Content is centered horizontally */
+    align-items: center;
+    display: flex;
+
+    /* Used to set the position of text */
+    position: relative;
+}
+
+.container__separator {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    height: 1px;
+    width: 100%;
+}
