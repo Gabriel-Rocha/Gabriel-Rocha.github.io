@@ -22,7 +22,7 @@ h2, h1 {
     font-size: 32px;
     background: -webkit-linear-gradient(90deg, rgb(252, 252, 252)  -0.03%, rgb(172, 172, 172) 99.92%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
 }
 
 p, i {
@@ -112,12 +112,12 @@ a {
 }
 
 #myFooter a{
-    color: #a5a9aa;
+    color: #f2f2f2;
     font-size: 18px;
 }
 
 #myFooter .contato{
-    color: #a5a9aa;
+    color: #f2f2f2;
     font-size: 18px;
     line-height: 0;
 }
@@ -175,7 +175,8 @@ a {
     width: 100%;
 }
 
-@-webkit-keyframes fadeIn {
+/* tirando o efeito de fadeIn das paginas */
+/* @-webkit-keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; } 
 }
@@ -193,7 +194,7 @@ a {
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
-}
+} */
 
 .fadeIn {
     -webkit-animation: fadeIn 3s ease-in-out;
