@@ -67,11 +67,19 @@ a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    cursor: pointer;
+    /* padding: 2px; */
+    background-image: linear-gradient(#04AA6D,#04AA6D);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    background-position-x: right;
+    transition: background-size 500ms; 
   }
   
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    background-size: 100% 100%;
+    background-position-x: left;
 }
   
 /* Add a cor na ação do link */
