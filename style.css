@@ -20,6 +20,7 @@ img {
 }
 
 h2, h1 {
+    font-family: arial,helvetica;
     font-size: 32px;
     background: -webkit-linear-gradient(90deg, rgb(252, 252, 252)  -0.03%, rgb(172, 172, 172) 99.92%);
     -webkit-background-clip: text;
@@ -31,7 +32,16 @@ p, i {
     margin-top: 30px;
     font-size: 17px;
     text-decoration: none;
-    font-family: Poppins, "Segoe UI", Verdana, Arial, sans-serif;
+    font-family: arial,helvetica;
+    line-height: 150%;
+}
+
+li{
+    box-sizing: border-box;
+    margin-top: 1px;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: arial,helvetica;
     line-height: 150%;
 }
 
