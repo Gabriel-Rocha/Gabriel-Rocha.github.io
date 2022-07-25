@@ -162,14 +162,14 @@ a {
 
 
  .containerSeparator {
-    box-shadow:  0 0 25px  #666;
+    /* box-shadow:  0 0 25px  #666; */
     align-items: center;
     display: flex;
     position: relative;
 }
 
 .container__separator {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255);
     height: 1px;
     width: 100%;
 }
