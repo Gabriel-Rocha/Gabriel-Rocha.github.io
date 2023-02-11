@@ -25,14 +25,6 @@ img:hover {
     transition: all 0.2s ease-in-out;
 }
 
-/* 
-.fadeIn:hover {
-    transform: scale(01.03);
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);  
-    transition: all 0.3s ease-in-out;
-}
-add depois
-*/
 
 h2, h1 {
     font-family: arial,helvetica;
